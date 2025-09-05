@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Over</title>
+  <style>
+    /* Ocupa toda la pantalla y coloca la imagen de fondo */
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('gameover.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin: 20px 0 10px 0;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    p.score {
+      font-size: 40px;
+      margin: 0 0 0px 0;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* espacio entre botones */
+    }
+
+    .buttons button {
+      padding: 20px 40px;
+      font-size: 24px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: #ff4c4c;
+      color: #fff;
+      transition: background-color 0.3s;
+    }
+
+    .buttons button:hover {
+      background-color: #ff1a1a;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Game Over</h1>
+  <h1>Score:</h1>
+  <p id="finalScore" style="font-size: 80px; font-weight: bold;">0</p>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const finalScore = localStorage.getItem("lastScore") || 0;
+      document.getElementById("finalScore").textContent = finalScore;
+    });
+  </script>
+
+  <div class="buttons">
+    <button onclick="window.location.href='game.html'">Try Again</button>
+    <button onclick="window.location.href='Estructura.html'">Main Menu</button>
+  </div>
+
+</body>
+</html>

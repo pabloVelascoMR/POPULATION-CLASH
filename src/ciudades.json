@@ -1,0 +1,602 @@
+[
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "population": 37785000
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "population": 33756000
+  },
+  {
+    "city": "Delhi",
+    "country": "India",
+    "population": 32226000
+  },
+  {
+    "city": "Guangzhou",
+    "country": "China",
+    "population": 26940000
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "population": 24973000
+  },
+  {
+    "city": "Manila",
+    "country": "Philippines",
+    "population": 24922000
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "population": 24073000
+  },
+  {
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "population": 23086000
+  },
+  {
+    "city": "Seoul",
+    "country": "Korea, South",
+    "population": 23016000
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "population": 21804000
+  },
+  
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "population": 20296000
+  },
+  
+  {
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "population": 19134000
+  },
+  {
+    "city": "New York",
+    "country": "United States",
+    "population": 18832416
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "population": 18522000
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "population": 18007000
+  },
+  {
+    "city": "Shenzhen",
+    "country": "China",
+    "population": 17619000
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "population": 17332000
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "population": 16710000
+  },
+  {
+    "city": "Lagos",
+    "country": "Nigeria",
+    "population": 16637000
+  },
+  
+  {
+    "city": "Osaka",
+    "country": "Japan",
+    "population": 15126000
+  },
+  
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "population": 14441000
+  },
+  {
+    "city": "Tehran",
+    "country": "Iran",
+    "population": 14148000
+  },
+ 
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "population": 12592000
+  },
+  
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "population": 11885717
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "population": 11262000
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "population": 11060000
+  },
+  
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "population": 10320000
+  },
+  {
+    "city": "Wuhan",
+    "country": "China",
+    "population": 10251000
+  },
+
+  {
+    "city": "Luanda",
+    "country": "Angola",
+    "population": 9051000
+  },
+  
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "population": 8911000
+  },
+ 
+  {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "population": 8587100
+  },
+  {
+    "city": "Chicago",
+    "country": "United States",
+    "population": 8489066
+  },
+  
+  {
+    "city": "Bogota",
+    "country": "Colombia",
+    "population": 8034649
+  },
+
+  {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "population": 7860781
+  },
+ 
+  {
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "population": 7450000
+  },
+  
+  {
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "population": 7237000
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "population": 7171000
+  },
+  {
+    "city": "Baghdad",
+    "country": "Iraq",
+    "population": 6183000
+  },
+  
+  {
+    "city": "Miami",
+    "country": "United States",
+    "population": 6113982
+  },
+  
+  {
+    "city": "Houston",
+    "country": "United States",
+    "population": 6046392
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "population": 5983000
+  },
+
+  {
+    "city": "Ankara",
+    "country": "Turkey",
+    "population": 5864049
+  },
+  {
+    "city": "Dallas",
+    "country": "United States",
+    "population": 5843632
+  },
+  {
+    "city": "Philadelphia",
+    "country": "United States",
+    "population": 5696588
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "population": 5647656
+  },
+  
+  {
+    "city": "Giza",
+    "country": "Egypt",
+    "population": 5598402
+  },
+  {
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "population": 5597763
+  },
+
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "population": 5545000
+  },
+  {
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "population": 5525000
+  },
+  {
+    "city": "Taiwan",
+    "country": "China",
+    "population": 5472217
+  },
+ 
+  {
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "population": 5328000
+  },
+  
+  {
+    "city": "Monterrey",
+    "country": "Mexico",
+    "population": 5324281
+  },
+ 
+  {
+    "city": "Atlanta",
+    "country": "United States",
+    "population": 5211164
+  },
+  
+  {
+    "city": "Washington",
+    "country": "United States",
+    "population": 5146120
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "population": 5031195
+  },
+  {
+    "city": "Alexandria",
+    "country": "Egypt",
+    "population": 4870000
+  },
+  
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "population": 4840600
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "population": 4800000
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "population": 4770313
+  },
+  
+  {
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "population": 4697000
+  },
+  
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "population": 4679500
+  },
+  {
+    "city": "Chenzhou",
+    "country": "China",
+    "population": 4667134
+  },
+  
+  {
+    "city": "Boston",
+    "country": "United States",
+    "population": 4355184
+  },
+ 
+  {
+    "city": "Kabul",
+    "country": "Afghanistan",
+    "population": 4273156
+  },
+  
+  {
+    "city": "Fortaleza",
+    "country": "Brazil",
+    "population": 4167996
+  },
+ 
+  {
+    "city": "Phoenix",
+    "country": "United States",
+    "population": 4065338
+  },
+ 
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "population": 3757630
+  },
+ 
+  {
+    "city": "Detroit",
+    "country": "United States",
+    "population": 3716929
+  },
+  
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "population": 3675219
+  },
+  
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "population": 3555253
+  },
+  
+ 
+  {
+    "city": "Busan",
+    "country": "Korea, South",
+    "population": 3453198
+  },
+  
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "population": 3364862
+  },
+ 
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "population": 3331420
+  },
+ 
+  {
+    "city": "Caracas",
+    "country": "Venezuela",
+    "population": 3242000
+  },
+ 
+  {
+    "city": "Casablanca",
+    "country": "Morocco",
+    "population": 3215935
+  },
+  
+  {
+    "city": "Santa Cruz de la Sierra",
+    "country": "Bolivia",
+    "population": 3151676
+  },
+  
+  {
+    "city": "Bursa",
+    "country": "Turkey",
+    "population": 3101833
+  },
+  
+  {
+    "city": "Guayaquil",
+    "country": "Ecuador",
+    "population": 3094420
+  },
+ 
+  {
+    "city": "Athens",
+    "country": "Greece",
+    "population": 3059764
+  },
+  {
+    "city": "San Diego",
+    "country": "United States",
+    "population": 3057778
+  },
+  {
+    "city": "Guatemala City",
+    "country": "Guatemala",
+    "population": 3014000
+  },
+  {
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "population": 2989000
+  },
+  
+  {
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "population": 2952301
+  },
+  
+  {
+    "city": "Minneapolis",
+    "country": "United States",
+    "population": 2906807
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "population": 2906035
+  },
+  {
+    "city": "Pyongyang",
+    "country": "Korea, North",
+    "population": 2863000
+  },
+  {
+    "city": "Shaoguan",
+    "country": "China",
+    "population": 2855131
+  },
+ 
+  {
+    "city": "Cali",
+    "country": "Colombia",
+    "population": 2838333
+  },
+  
+ 
+  {
+    "city": "Stuttgart",
+    "country": "Germany",
+    "population": 2787724
+  },
+ 
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "population": 2748109
+  },
+ 
+  {
+    "city": "Brooklyn",
+    "country": "United States",
+    "population": 2736074
+  },
+  
+  {
+    "city": "Brisbane",
+    "country": "Australia",
+    "population": 2706966
+  },
+ 
+  {
+    "city": "Denver",
+    "country": "United States",
+    "population": 2691349
+  },
+  
+
+  {
+    "city": "Munich",
+    "country": "Germany",
+    "population": 2606021
+  },
+  
+  {
+    "city": "Birmingham",
+    "country": "United Kingdom",
+    "population": 2590363
+  },
+  {
+    "city": "Valencia",
+    "country": "Venezuela",
+    "population": 2585202
+  },
+  
+  {
+    "city": "Medellin",
+    "country": "Colombia",
+    "population": 2529403
+  },
+ 
+  
+  {
+    "city": "Hamburg",
+    "country": "Germany",
+    "population": 2496600
+  },
+  {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "population": 2494813
+  },
+  
+  {
+    "city": "Toluca",
+    "country": "Mexico",
+    "population": 2476689
+  },
+ 
+  
+  {
+    "city": "Baoshan",
+    "country": "China",
+    "population": 2431211
+  },
+  {
+    "city": "Mecca",
+    "country": "Saudi Arabia",
+    "population": 2427924
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "population": 2426160
+  },
+ 
+  {
+    "city": "Beirut",
+    "country": "Lebanon",
+    "population": 2421354
+  },
+  {
+    "city": "Salvador",
+    "country": "Brazil",
+    "population": 2417678
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "population": 2412530
+  },
+  
+  {
+    "city": "Queens",
+    "country": "United States",
+    "population": 2405464
+  }
+ 
+]

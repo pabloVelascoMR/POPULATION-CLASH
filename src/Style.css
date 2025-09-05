@@ -1,0 +1,168 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; width: 100%; font-family: Arial, sans-serif; }
+
+/* Contenedor general (pantalla del juego) */
+.cities-container {
+  display: flex;
+  flex-direction: column;  /* arriba y abajo */
+  height: 100vh;            /* toda la pantalla */
+  width: 100%;
+}
+
+/* Cada ciudad ocupa media pantalla */
+.city-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #444; /* Color de respaldo si no hay imagen */
+  position: relative;
+}
+
+/* Botones del juego */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* uno debajo del otro */
+  gap: 15px;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform .08s ease, opacity .2s ease;
+}
+
+#mayorBtn { background: #22c55e; color: #fff; }
+#menorBtn { background: #f59e0b; color: #fff; }
+
+button:hover { opacity: 0.9; }
+button:active { transform: scale(0.97); }
+
+/* Resultado */
+#result {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+/* ===== MENU PAGE ===== */
+body.main-menu {
+  height: 100vh;
+  width: 100%;
+  background: url("fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* contenido un poco más arriba */
+}
+
+.menu-container {
+  text-align: center;
+  color: #fff;
+  margin-top: 60px;
+  width: 100%;              /* que ocupe todo el ancho */
+  display: flex;            /* usamos flex para centrar */
+  flex-direction: column;   /* elementos en columna */
+  align-items: center;      /* centrado horizontal */
+}
+
+
+.logo {
+  width: 380px;
+  margin-bottom: 0px;
+}
+
+.play-button {
+  display: inline-block;
+  padding: 18px 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  background: #e63946;
+  border-radius: 12px;
+  text-decoration: none;
+  margin-bottom: 25px;
+  transition: transform 0.1s ease, opacity 0.2s ease;
+}
+
+.play-button:hover {
+  opacity: 0.9;
+}
+
+.play-button:active {
+  transform: scale(0.96);
+}
+
+/* Nuevo: título */
+.menu-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; /* reborde negro */
+}
+
+/* Descripción debajo del título */
+.description {
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 500px;
+  margin: 0 auto;   /* centrado */
+  margin-top: 10px; /* menos separación */
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; /* reborde negro */
+}
+
+#score {
+    position: absolute;       /* Posición absoluta sobre el contenedor */
+    bottom: 10px;             /* 10px desde abajo */
+    left: 10px;               /* 10px desde la izquierda */
+    font-size: 40px;          /* Grande */
+    font-weight: bold;
+    color: #fff;              /* Blanco */
+    text-shadow: 2px 2px 6px #000; /* Para que contraste con la imagen */
+    background: none;         /* Sin fondo */
+    z-index: 2;               /* Que esté encima de la imagen */
+}
+
+#city1-text,
+#city2-text {
+    color: #fff; /* color de la letra */
+    font-size: 24px; /* tamaño que quieras */
+    font-weight: bold;
+    text-shadow:
+        2px 2px 0 #000,   /* derecha-abajo */
+        -2px -2px 0 #000, /* izquierda-arriba */
+        2px -2px 0 #000,  /* derecha-arriba */
+        -2px 2px 0 #000;  /* izquierda-abajo */
+}
+
+.population {
+    font-size: 28px;       /* más grande que el nombre */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000; /* opcional: borde negro */
+}
+

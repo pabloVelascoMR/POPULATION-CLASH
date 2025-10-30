@@ -41,7 +41,7 @@ El jugador debe elegir entre dos ciudades cuál tiene mayor o menor población.
 
 ## Documentación
 
-- Informe completo del proyecto: [`docs/PC-informe.pdf`](docs/PC-informe.pdf)  
+- Informe completo del proyecto: [`Docs/PC-informe.pdf`](Docs/PC-informe.pdf)  
 
 
 ---
